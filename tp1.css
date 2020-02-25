@@ -8,7 +8,7 @@
 }
 .container1 {
     border: 2px solid rgb(150,150,150);
-     width: 960px;
+    width: 960px;
     padding: 0;
     margin: 0 auto;
 }
@@ -41,6 +41,15 @@
     margin: 0 auto;
     height: 50px;
     line-height: 50px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(158, 155, 155);
+
 }
 .impair {
     display: flex;
