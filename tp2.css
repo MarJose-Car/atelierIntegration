@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+    
+body {
+    background: rgb(100,100,100);
+    color: #fff;
+}
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+header {
+    background: #228B22;
+}
+.conteneur {
+    /* display: flex;
+    justify-content: space-around; */
+    width: 80%;
+    margin: 0 auto;
+}
+.logo {
+    background: #3CB371;
+    width: 25%;
+    margin: 0 auto;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+.menu {
+    /* height: 120px;
+    line-height: 120px; */
+    padding-top: 40px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.impair {
+    background: #32CD32;
+    height: 40px;
+    line-height: 40px;
+}
+.pair {
+    background:#9ACD32;
+}
+.bloc {
+    background: rgb(200,200,200);
+    width: 46%;
+    height: 100px;
+    margin: 2%;
+
+}
+/* fond rgb(100,100,100) - texte blanc - police à bâton */
+/* 
+HEADER :
+fond : #228B22
+CONTENEUR dans le HEADER, dans le contenu et le dans le FOOTER :
+autocentré - largeur : 80% de son parent
+LOGO :
+largeur : 25% - hauteur : 120px - couleur : #3CB371
+MENU :
+largeur : 75% - couleurs : #32CD32 et #9ACD32
+BLOCS A, B, C et D :
+fond : rgb(200,200,200) - largeur : 46% - hauteur 100px - marges exterieures : 2%
+CONTENU :
+Carte GoogleMap intégrée:
+Se rendre sur le site https://www.google.fr/maps, y selectionner une adresse de votre choix.
+Cliquez sur le bouton "partager" du panneau latéral puis le bouton "intégrer une carte".
+Copiez puis collez la balise <iframe> proposée à l'emplacement souhaité dans votre code après avoir entré les paramètres de votre choix.
+Vous pouvez parametrer la taille ce cet iframe via CSS ou dans l'attribut HTML width="".
+FOOTER :
+hauteur : 80px - couleurs : #32CD32 et #9ACD32
+************************************************
+************************************************ */
